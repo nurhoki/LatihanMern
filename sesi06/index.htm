@@ -9,8 +9,19 @@
     <h1>javascript Asyncronous programming</h1>
     <p>please open here🤗</p>
     <!-- <script src="modul/callback.js"></script> -->
-    <script src="modul/promise.js"></script>
-    <!-- <script src="modul/asyncawait.js"></script> -->
+    <!-- <script src="modul/promise.js"></script> -->
+    <script src="modul/asyncawait.js"></script>
+    <script>
+        console.log("+++ ASYNCRONOUS PARAMETER +++");
+        function SUM(...params) {
+            let total = 0;
+            for (const param of params) {
+                total += param;
+            }
+            return total;
+        }
+        console.log(SUM(70, 87, 95, 68, 90));
 
+    </script>
 </body>
 </html>

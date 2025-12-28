@@ -4,7 +4,7 @@ function masakMie(rasa, ) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (rasa) {
-                resolve("mie dengan rasa " + rasa + " sudah  matang!");
+                resolve("mie dengan rasa " + rasa + " sudah  matang!🍝");
             } else {
                 reject("gagal memasak mie karena rasa tidak tersedia😫");
             }
@@ -18,10 +18,12 @@ function hidangkanMie(mie) {
 }
 
 // JALANKAN
-console.log("Kakak mencuci piring...");
+console.log("PROMISE");
+console.log("Kakak mencuci piring...💧🍽💦");
 masakMie("soto").then((mie) => {
     console.log("Adik: " + mie);
 }).catch((error) => {
-    console.log("Adik: " + error);
+    console.log("Error " + error);
 });
-console.log("Kakak: piring sudah bersih!");
+console.log("Kakak: piring sudah bersih!🍽");
+
