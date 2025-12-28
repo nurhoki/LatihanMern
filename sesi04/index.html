@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript - basic</h1>
+    open the console
+    <script>
+        console.log("hello world");
+        const nilai = [80, 90, 75, 85, 95];
+        let kkm = 70;
+for (let i = 0; i < nilai.length; i++) {
+            if (nilai[i] >= kkm) {
+                console.log("Nilai" + nilai[i] + "Lulus");
+            } else {
+                console.log(`Nilai ${nilai[i]} Tidak Lulus`);
+            }
+        }
+        //function
+        function hitungLuas(panjang, lebar) {
+            return panjang * lebar;
+            return Luas
+        }
+        //aarow function
+        function sapa(nama, umur) {
+            console.log(`selamat pagi ${nama} yang cantikkkk istrinya cha eun wook!, sekarang umur kamu ${umur} tahun, selamat ulang tahun yaa😍`);
+        }
+
+        console.log(hitungLuas(20 * 10));
+        console.log(sapa("oci"));
+
+        const mahasiswa = {
+            nama: "oci",
+            umur: 15,
+            ip: 3.9,
+            };
+
+            const name = mahasiswa.name;
+
+        //destructuring
+        const {nama, umur, ip } = mahasiswa;
+        
+        //ternuary
+        let ket = (ip == 4) ? "cumlaude" : "tidak cumlaude";
+
+        console.log(`halo aku ${nama}, umurku ${umur} tahun, ip ku ${ip}. ${keterangan}`);
+
+    </script>
+</body>
+</html>
