@@ -1,4 +1,9 @@
+import TombolCounter from "../components/TombolCounter";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <h2>Hello, React!</h2>
-);
+
+function App() {
+    return (<TombolCounter />);
+}
+
+root.render(<app />);
